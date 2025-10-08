@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { HandIcon, Code2Icon } from "lucide-react";
+import { HandIcon} from "lucide-react";
 
 export default function Hero() {
   return (
@@ -36,7 +36,7 @@ export default function Hero() {
             whileHover={{ rotate: 15 }}
             transition={{ type: "spring", stiffness: 200, damping: 10 }}
           >
-            {/* <Code2Icon className="w-10 h-10 text-orange-400" /> */}
+
           </motion.span>
         </motion.h1>
 
