@@ -1,0 +1,37 @@
+@import url('https://fonts.cdnfonts.com/css/taewoon-csx');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base typography + small utilities */
+:root {
+  --brand: #2B5EA8;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+/* 👇 Put Tailwind apply rules inside @layer base */
+@layer base {
+  body {
+    @apply font-body  text-[#1b1f24] antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* small utility to keep consistent container width */
+.container-max {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* subtle focus ring for accessibility */
+:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(43,94,168,0.12);
+  border-radius: 6px;
+}
