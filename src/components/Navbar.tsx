@@ -60,7 +60,7 @@ export default function Navbar() {
                       smooth
                       duration={500}
                       offset={-80}
-                      className="text-[0.95rem]  text-white hover:text-orange-400 font-medium tracking-wide cursor-pointer transition-colors"
+                      className="text-[0.95rem]  text-white hover:text-orange-400 font-semibold hover:font-medium tracking-wide cursor-pointer transition-colors"
                     >
                       {item.label}
                     </ScrollLink>

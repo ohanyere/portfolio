@@ -31,7 +31,7 @@ export default function Hero() {
           transition={{ type: "spring", stiffness: 300, damping: 10 }}
           className="flex justify-center items-center gap-3 font-heading font-extrabold text-black text-7xl sm:text-8xl md:text-9xl tracking-wide leading-tight cursor-move"
         >
-          Francis<span className="ml-2">.</span>
+          Francis
           <motion.span
             whileHover={{ rotate: 15 }}
             transition={{ type: "spring", stiffness: 200, damping: 10 }}
@@ -42,7 +42,7 @@ export default function Hero() {
 
         {/* Description */}
         <p className="text-base sm:text-lg leading-relaxed tracking-wide max-w-2xl mx-auto">
-          I’m Francis —<span className=""> a test-driven front-end developer who builds well-tested, high-performance applications using React, TypeScript, Cypress for E2E testing, and React Testing Library for component testing.</span> I focus on clean architecture, clarity, and reliability.
+          <span className=" capitalize"> A test-driven front-end developer who builds well-tested, high-performance applications using React, TypeScript, Cypress for E2E testing, and React Testing Library for component testing.</span> I focus on clean architecture, clarity, and reliability.
         </p>
 
         {/* Links */}
