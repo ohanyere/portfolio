@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-
 export default function About() {
   return (
     <motion.div
@@ -11,14 +10,11 @@ export default function About() {
     >
       <h2 className="text-2xl font-semibold text-primary-700 mb-4">About</h2>
       <p className="text-neutral-700 leading-relaxed">
-        I’m a fast-evolving frontend engineer who loves learning and shipping
-        products. I enjoy collaborating with designers, engineers, and product
-        people to turn ideas into polished, user-friendly experiences. My work
-        focuses on pragmatic architecture, maintainable code, and delightful UX.
+          I’m Francis — a test-driven frontend developer who builds well-tested, high-performance applications using React, TypeScript, Cypress for E2E testing, and React Testing Library for component testing. I focus on pragmatic architecture, maintainable code, and delightful user experiences
       </p>
 
       <p className="mt-6 text-neutral-600 italic">
-        Hobbies: continuous learning, building side projects, and mentoring.
+          Hobbies — I’m a big Manchester City fan and love watching their matches. Outside football, I enjoy relaxing with good music
       </p>
     </motion.div>
   );

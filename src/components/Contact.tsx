@@ -17,7 +17,7 @@ export default function Contact() {
       transition={{ duration: 0.6 }}
       className="max-w-2xl mx-auto text-center py-28"
     >
-      Heading
+      
       <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-black dark:text-white tracking-tight mb-6">
         Get in Touch with Us
       </h2>
