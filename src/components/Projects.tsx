@@ -11,11 +11,12 @@ export default function Projects() {
         <p className="text-sm  text-neutral-600">Selected work & case studies</p>
       </div>
 
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {PROJECTS.map((p) => (
-          <ProjectCard key={p.id} project={p} />
-        ))}
-      </div>
+          <div className="grid gap-10">
+      {PROJECTS.map((p) => (
+        <ProjectCard key={p.id} project={p} />
+      ))}
+    </div>
+
     </div>
   );
 }
