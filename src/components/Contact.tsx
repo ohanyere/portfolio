@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 
 export default function Contact() {
   const CONTACT_LINKS = [
-    { Icon: Mail, href: "mailto:youremail@example.com", label: "Email" },
-    { Icon: Github, href: "https://github.com/yourusername", label: "GitHub" },
-    { Icon: Linkedin, href: "https://linkedin.com/in/yourusername", label: "LinkedIn" },
-    { Icon: Twitter, href: "https://twitter.com/yourusername", label: "Twitter" },
+    { Icon: Mail, href: "mailto:ohanyerefrancis395@gmail.com.com", label: "Email" },
+    { Icon: Github, href: "https://github.com/ohanyere", label: "GitHub" },
+    { Icon: Linkedin, href: "https://www.linkedin.com/in/ohanyere-francis-78a794374/", label: "LinkedIn" },
+    { Icon: Twitter, href: "https://x.com/MooreOhanyere", label: "Twitter" },
   ];
 
   return (
