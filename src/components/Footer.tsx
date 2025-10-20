@@ -9,7 +9,7 @@ export default function Footer() {
           <span className="font-semibold text-neutral-900">
             Francis is fast-evolving
           </span>{" "}
-          — always learning and getting things done. Follow my journey as I
+          , always learning and getting things done. Follow my journey as I
           grow, build, and refine.
         </p>
 
