@@ -30,7 +30,7 @@ const App: React.FC = () => {
             <Projects />
           </section>
 
-          <section id="contact" className="pt-20 pb-20">
+          <section id="contact" className="pt-20 ">
             <Contact />
           </section>
         </AnimatePresence>
