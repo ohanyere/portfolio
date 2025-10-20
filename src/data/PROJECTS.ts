@@ -32,7 +32,7 @@ const PROJECTS: Project[] = [
     "A platform where students can upload, view, and practice past quiz questions with AI-powered insights to boost exam preparation. Built with React, Node.js, Firebase, React Query, and tested with Vitest & React Testing Library.",
   image: "/preview3.png",
   demo: "https://coupastquizquestions-2d835956e869.herokuapp.com/",
-  repo: "#",
+  repo: "https://github.com/ohanyere/share-interview",
   tech: [
     "React",
     "TypeScript",
