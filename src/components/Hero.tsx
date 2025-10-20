@@ -48,15 +48,16 @@ export default function Hero() {
         {/* Links */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-center gap-6">
           <a
-            href="#projects"
-            className="rounded-full px-6 py-3 text-sm font-medium tracking-wide hover:underline transition-colors"
+            href="https://drive.google.com/file/d/1AAMbGX7X_jWI5QIoOQnn27H0Z4Sl413n/view?usp=sharing"
+            target="_blank"
+            className="rounded-xl px-6 py-3 text-sm capitalize bg-black hover:bg-gray-500 text-white font-medium tracking-wide hover:underline transition-colors"
           >
-            View Projects
+            view resume
           </a>
 
           <a
-            href="mailto:youremail@example.com"
-            className="text-sm tracking-wide text-neutral-700 hover:underline transition-colors"
+            href="mailto:ohanyerefrancis395@gmail.com"
+            className="text-sm font-semibold tracking-wide text-neutral-700 hover:underline transition-colors"
           >
             Say hello
           </a>
