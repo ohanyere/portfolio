@@ -19,7 +19,7 @@ export default function Contact() {
     >
       
       <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-black dark:text-white tracking-tight mb-6">
-        Get in Touch with Us
+       i will like to hear from you
       </h2>
 
       {/* Subtext */}
