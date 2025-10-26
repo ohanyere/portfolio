@@ -51,8 +51,8 @@ export default function Navbar() {
 
           {/* Right Section: Desktop Navigation or Mobile Button */}
           {isMediaAbove ? (
-            <nav className="bg-black rounded-full w-[40%] py-4 px-3">
-              <ul className="flex items-center gap-8 ">
+            <nav className=" w-[40%] py-4 px-3 bg-pink-200">
+              <ul className="flex items-center gap-14 ">
                 {NAV.map((item) => (
                   <li key={item.id}>
                     <ScrollLink
@@ -60,7 +60,7 @@ export default function Navbar() {
                       smooth
                       duration={500}
                       offset={-80}
-                      className="text-[0.95rem]  text-white hover:text-orange-400 font-semibold hover:font-medium tracking-wide cursor-pointer transition-colors"
+                      className="text-[0.95rem]  text-black hover:text-orange-400 font-semibold hover:font-medium tracking-wide cursor-pointer transition-colors"
                     >
                       {item.label}
                     </ScrollLink>
