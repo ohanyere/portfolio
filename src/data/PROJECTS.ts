@@ -48,15 +48,15 @@ const PROJECTS: Project[] = [
 },
 
   {
-    id: "cookout",
-    title: "Cookout",
-    subtitle: "Food marketplace",
+    id: "Monster Roldex",
+    title: "Monster Roldex",
+    subtitle: "A place to check for monsters",
     description:
       "A marketplace connecting local cooks and customers with an optimized checkout and order tracking.",
-    image: "https://via.placeholder.com/1200x700?text=Cookout",
-    demo: "#",
-    repo: "#",
-    tech: ["React", "Firebase", "Tailwind"],
+    image: "",
+    demo: "https://monster-teal.vercel.app/",
+    repo: "https://github.com/ohanyere/monster",
+    tech: ["React", "Firebase", "Tailwind", "React Query"],
   },
 ];
 
