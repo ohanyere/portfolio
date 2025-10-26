@@ -9,14 +9,14 @@ export default function ProjectCard({ project }: { project: Project }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.45 }}
-      className="flex flex-col md:flex-row rounded-2xl overflow-hidden bg-white border border-gray-200 shadow-md hover:shadow-lg transition-shadow"
+      className="flex flex-col md:flex-row rounded-2xl overflow-hidden bg-white border  border-gray-200 shadow-md hover:shadow-lg transition-shadow"
     >
       
       <div
         className="md:w-1/2 h-48 md:h-auto bg-cover bg-center"
         style={{ backgroundImage: `url(${project.image ?? ""})` }}
         aria-hidden
-      />
+      ></div>
 
       
       <div className="p-6 flex flex-col flex-1">
@@ -31,12 +31,12 @@ export default function ProjectCard({ project }: { project: Project }) {
 
         
         <div className="mt-4 flex flex-wrap gap-2">
-          {project.tech.map((t) => (
+          {project.tech.map((skill) => (
             <span
-              key={t}
+              key={skill}
               className="text-xs px-3 py-1 rounded-full bg-gray-100 text-gray-700 font-medium"
             >
-              {t}
+              {skill}
             </span>
           ))}
         </div>

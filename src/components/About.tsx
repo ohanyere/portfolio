@@ -8,7 +8,7 @@ export default function About() {
       transition={{ duration: 0.45 }}
       className="max-w-3xl mx-auto text-center"
     >
-      <h2 className="text-2xl font-semibold text-primary-700 mb-4">About</h2>
+      <h2 className="text-2xl sm:text-6xl font-semibold text-primary-700 mb-4">About</h2>
       <p className="text-neutral-700 leading-relaxed">
           I’m Francis — a test-driven frontend developer who builds well-tested, high-performance applications using React, TypeScript, Cypress for E2E testing, and React Testing Library for component testing. I focus on pragmatic architecture, maintainable code, and delightful user experiences
       </p>

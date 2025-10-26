@@ -31,7 +31,7 @@ const App: React.FC = () => {
           </section>
 
           <section id="contact" className="pt-20 ">
-            <Contact />
+            {/* <Contact /> */}
           </section>
         </AnimatePresence>
       </main>

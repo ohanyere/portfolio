@@ -56,7 +56,10 @@ const PROJECTS: Project[] = [
     image: "preview4.png",
     demo: "https://monster-teal.vercel.app/",
     repo: "https://github.com/ohanyere/monster",
-    tech: ["React", "Firebase", "Tailwind", "React Query"],
+    tech: ["React", "Firebase", "Tailwind", "React Query","TypeScript",
+    "React Query",
+    "Cypress",
+    "React Testing Library",],
   },
 ];
 
