@@ -53,7 +53,7 @@ const PROJECTS: Project[] = [
     subtitle: "A place to check for monsters",
     description:
       "A marketplace connecting local cooks and customers with an optimized checkout and order tracking.",
-    image: "",
+    image: "preview4.png",
     demo: "https://monster-teal.vercel.app/",
     repo: "https://github.com/ohanyere/monster",
     tech: ["React", "Firebase", "Tailwind", "React Query"],
