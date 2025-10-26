@@ -10,7 +10,7 @@ export default function Hero() {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="max-w-3xl mx-auto text-center space-y-8"
       >
-        {/* Big "Hi, I’m" */}
+        
         <motion.p
           whileHover={{ scale: 1.05 }}
           transition={{ type: "spring", stiffness: 200, damping: 12 }}
@@ -25,11 +25,11 @@ export default function Hero() {
           </motion.span>
         </motion.p>
 
-        {/* Hero Name */}
+        
         <motion.h1
           whileHover={{ scale: 1.08 }}
           transition={{ type: "spring", stiffness: 300, damping: 10 }}
-          className="flex justify-center items-center gap-3 font-heading font-extrabold text-black text-7xl sm:text-8xl md:text-9xl tracking-wide leading-tight cursor-move"
+          className="flex justify-center items-center gap-3 font-heading font-extrabold text-black text-6xl sm:text-8xl md:text-8xl tracking-wide leading-tight cursor-move"
         >
           Francis
           <motion.span
@@ -40,12 +40,12 @@ export default function Hero() {
           </motion.span>
         </motion.h1>
 
-        {/* Description */}
+        
         <p className="text-base sm:text-lg leading-relaxed tracking-wide max-w-2xl mx-auto">
           <span className=" capitalize"> A test-driven front-end developer who builds well-tested, high-performance applications using React, TypeScript, Cypress for E2E testing, and React Testing Library for component testing.</span> I focus on clean architecture, clarity, and reliability.
         </p>
 
-        {/* Links */}
+        
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-center gap-6">
           <a
             href="https://drive.google.com/file/d/1AAMbGX7X_jWI5QIoOQnn27H0Z4Sl413n/view?usp=sharing"
