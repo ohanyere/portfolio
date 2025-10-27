@@ -4,7 +4,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+// import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { AnimatePresence } from "framer-motion";
 
@@ -30,9 +30,9 @@ const App: React.FC = () => {
             <Projects />
           </section>
 
-          <section id="contact" className="pt-20 ">
-            {/* <Contact /> */}
-          </section>
+          {/* <section id="contact" className="pt-20 ">
+            
+          </section> */}
         </AnimatePresence>
       </main>
       <Footer />
