@@ -51,7 +51,7 @@ export default function Navbar() {
 
           {/* Right Section: Desktop Navigation or Mobile Button */}
           {isMediaAbove ? (
-            <nav className=" w-[40%] py-4 px-3 bg-pink-200">
+            <nav className=" w-[40%] py-4 px-3 ">
               <ul className="flex items-center gap-14 ">
                 {NAV.map((item) => (
                   <li key={item.id}>

@@ -4,7 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Base typography + small utilities */
+
 :root {
   --brand: #2B5EA8;
 }
@@ -13,7 +13,7 @@ html, body, #root {
   height: 100%;
 }
 
-/* 👇 Put Tailwind apply rules inside @layer base */
+
 @layer base {
   body {
     @apply font-body  text-[#1b1f24] antialiased;
