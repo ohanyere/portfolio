@@ -52,7 +52,7 @@ const PROJECTS: Project[] = [
     title: "Monster Roldex",
     subtitle: "A place to check for monsters",
     description:
-      "A place where users connecting / saerch for monsters ",
+      "A place where users connecting / search for monsters ",
     image: "preview4.png",
     demo: "https://monster-teal.vercel.app/",
     repo: "https://github.com/ohanyere/monster",
