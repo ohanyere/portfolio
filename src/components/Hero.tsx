@@ -29,7 +29,7 @@ export default function Hero() {
         <motion.h1
           whileHover={{ scale: 1.08 }}
           transition={{ type: "spring", stiffness: 300, damping: 10 }}
-          className="flex justify-center items-center gap-3 font-heading font-extrabold text-black text-6xl sm:text-8xl md:text-8xl tracking-wide leading-tight cursor-move"
+          className="flex justify-center items-center gap-3  font-extrabold text-black text-6xl sm:text-8xl md:text-9sxl tracking-wide leading-tight cursor-move"
         >
           Francis
           <motion.span

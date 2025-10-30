@@ -4,6 +4,7 @@ import { Link as ScrollLink } from "react-scroll";
 import { motion, AnimatePresence } from "framer-motion";
 import useMediaQuery from "../useMediaQuery";
 
+
 const NAV = [
   { id: "about", label: "About" },
   { id: "skills", label: "Skills" },
@@ -33,7 +34,7 @@ export default function Navbar() {
     >
       <div className="w-5/6 mx-auto">
         <div className="px-6 flex items-center justify-between py-3">
-          {/* Left Section: Logo + GitHub */}
+          
           <div className="flex items-center gap-4">
             <div className="h-10 w-10 rounded-md flex items-center justify-center border border-neutral-300 text-neutral-800 font-serif text-xl font-semibold tracking-wider">
               F
@@ -49,7 +50,7 @@ export default function Navbar() {
             </a>
           </div>
 
-          {/* Right Section: Desktop Navigation or Mobile Button */}
+          
           {isMediaAbove ? (
             <nav className=" w-[40%] py-4 px-3 ">
               <ul className="flex items-center gap-14 ">
@@ -64,6 +65,7 @@ export default function Navbar() {
                     >
                       {item.label}
                     </ScrollLink>
+                    
                   </li>
                 ))}
               </ul>
