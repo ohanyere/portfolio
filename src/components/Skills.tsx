@@ -42,7 +42,7 @@ export default function Skills() {
           transition={{ duration: 0.3 }}
           className="flex flex-col items-center gap-2 text-center"
         >
-          <Icon className="text-5xl text-gray-900  transition-colors duration-300" />
+          <Icon className="text-5xl text-gray-900" />
           <span className="text-sm font-medium text-gray-800 ">
             {name}
           </span>
