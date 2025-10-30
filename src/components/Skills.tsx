@@ -31,7 +31,7 @@ const SKILLS = [
 
 export default function Skills() {
   return (
-    <section className="flex flex-wrap justify-center gap-8 py-8 bg-gray-100 rounded-xl">
+    <section className="flex flex-wrap justify-center gap-8 py-8  rounded-xl">
       {SKILLS.map(({ name, Icon }) => (
         <motion.div
           key={name}
