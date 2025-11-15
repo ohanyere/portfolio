@@ -7,7 +7,7 @@ export default function Contact() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
-      className="flex justify-center items-center py-40"
+      className="flex justify-center items-center py-20"
     >
       <motion.a
         href="https://github.com/ohanyere?tab=repositories"
