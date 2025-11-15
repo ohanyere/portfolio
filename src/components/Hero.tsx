@@ -41,8 +41,8 @@ export default function Hero() {
         </motion.h1>
 
         
-        <p className="text-base sm:text-lg leading-relaxed tracking-wide max-w-2xl mx-auto">
-          <span className=" capitalize"> A test-driven front-end developer who builds well-tested, high-performance applications using React, TypeScript, Cypress for E2E testing, and React Testing Library for component testing.</span> I focus on clean architecture, clarity, and reliability.
+        <p className="text-base sm:text-lg leading-relaxed tracking-wide max-w-3xl mx-auto">
+          <span className=" capitalize">A test-driven front-end and mobile developer who builds well-tested, high-performance applications using React, React Native, TypeScript, Cypress for E2E testing, and React Testing Library for component testing. I focus on clean architecture, clarity, and reliability, delivering solid experiences for both web and mobile.</span>
         </p>
 
         

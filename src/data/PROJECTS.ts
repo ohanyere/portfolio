@@ -46,6 +46,28 @@ const PROJECTS: Project[] = [
     "Vitest"
   ],
 },
+{
+  id: "FrancisClothing",
+  title: "Francis Clothing",
+  subtitle: "React + GraphQL E-Commerce Store",
+  description:
+    "A modern e-commerce application built with React and GraphQL. Users can browse categories, view products, manage their cart, and authenticate securely. Product data is fully fetched through GraphQL, with state managed using Redux and React Context. Styled Components power the UI. Stripe payments will be added in a future update.",
+  image: "/preview5.png",
+  demo: "https://graphql-ecommerce-phi.vercel.app/", 
+  repo: "https://github.com/ohanyere/graphql-ecommerce", 
+  tech: [
+    "React",
+    "GraphQL",
+    "Redux",
+    "Context API",
+    "Styled Components",
+    "Firebase",
+    "TypeScript",
+    "Appolo-client",
+    "Cypress",
+    "React Testing Library"
+  ],
+},
 
   {
     id: "Monster Roldex",

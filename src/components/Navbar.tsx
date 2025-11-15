@@ -37,7 +37,7 @@ export default function Navbar() {
           
           <div className="flex items-center gap-4">
             <div className="h-10 w-10 rounded-md flex items-center justify-center border border-neutral-300 text-neutral-800 font-serif text-xl font-semibold tracking-wider">
-              F
+              HU
             </div>
 
             <a

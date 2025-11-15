@@ -1,12 +1,11 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-// import Contact from "./components/Contact";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-// import { BrowserRouter, Routes, Route} from "react-router-dom"
+
 import { AnimatePresence } from "framer-motion";
 
 
@@ -22,10 +21,6 @@ const App: React.FC = () => {
             <Hero />
           </section>
 
-          <section id="about" className="pt-20">
-            <About />
-          </section>
-
           <section id="skills" className="pt-20">
             <Skills />
           </section>
@@ -33,10 +28,9 @@ const App: React.FC = () => {
           <section id="projects" className="pt-20">
             <Projects />
           </section>
-
-          {/* <section id="contact" className="pt-20 ">
-            
-          </section> */}
+          <section id="contact" className="">
+            <Contact />
+          </section>
         </AnimatePresence>
       </main>
       <Footer />

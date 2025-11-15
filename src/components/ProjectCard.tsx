@@ -9,11 +9,11 @@ export default function ProjectCard({ project }: { project: Project }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.45 }}
-      className="flex flex-col md:flex-row rounded-2xl overflow-hidden bg-white border  border-gray-200 shadow-md hover:shadow-lg transition-shadow"
+      className="flex flex-col md:flex-row rounded-2xl overflow-hidden bg-white border  border-gra shadow-md hover:shadow-lg transition-shadow h-[45]"
     >
       
       <div
-        className="md:w-1/2 h-48 md:h-auto bg-cover bg-center"
+        className="md:w-1/2 h-full md:h-auto bg-cover bg-center bg-no-repeat m-8"
         style={{ backgroundImage: `url(${project.image ?? ""})` }}
         aria-hidden
       ></div>
