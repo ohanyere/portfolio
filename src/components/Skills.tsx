@@ -19,21 +19,21 @@ import {
 
 import { motion } from "framer-motion";
 
-const SKILLS = [
-  { name: "React", Icon: SiReact },
-  { name: "TypeScript", Icon: SiTypescript },
-  { name: "Next.js", Icon: SiNextdotjs },
-  { name: "Expo", Icon: SiExpo },
-  { name: "Redux Toolkit", Icon: SiRedux },
-  { name: "GraphQL", Icon: SiGraphql },
-  { name: "Firebase", Icon: SiFirebase },
-  { name: "Tailwind CSS", Icon: SiTailwindcss },
-  { name: "Cypress (E2E)", Icon: SiCypress },
-  { name: "React Testing Library", Icon: SiTestinglibrary },
-  { name: "Story Book", Icon: SiStorybook },
-  { name: "Styled Components", Icon: SiStyledcomponents },
-  { name: "Node.js", Icon: SiNodedotjs },
-  { name: "Express.js", Icon: SiExpress },
+  const SKILLS = [
+  { name: "React", Icon: SiReact, color: "#61DAFB" },
+  { name: "TypeScript", Icon: SiTypescript, color: "#3178C6" },
+  { name: "Next.js", Icon: SiNextdotjs, color: "#000000" },
+  { name: "Expo", Icon: SiExpo, color: "#000020" },
+  { name: "Redux Toolkit", Icon: SiRedux, color: "#764ABC" },
+  { name: "GraphQL", Icon: SiGraphql, color: "#E10098" },
+  { name: "Firebase", Icon: SiFirebase, color: "#FFCA28" },
+  { name: "Tailwind CSS", Icon: SiTailwindcss, color: "#38BDF8" },
+  { name: "Cypress (E2E)", Icon: SiCypress, color: "#17202C" },
+  { name: "React Testing Library", Icon: SiTestinglibrary, color: "#E33332" },
+  { name: "Storybook", Icon: SiStorybook, color: "#FF4785" },
+  { name: "Styled Components", Icon: SiStyledcomponents, color: "#DB7093" },
+  { name: "Node.js", Icon: SiNodedotjs, color: "#339933" },
+  { name: "Express.js", Icon: SiExpress, color: "#000000" },
 ];
 
 export default function Skills() {
@@ -46,10 +46,10 @@ export default function Skills() {
         </div>
         
       </div>
-      <div className="flex flex-wrap justify-center gap-8 py-8 bg-gray-100 dark:bg-gray-800 rounded-xl">
+      <div className="flex flex-wrap justify-center gap-8 py-8  dark:bg-gray-800 rounded-xl">
       
       
-      {SKILLS.map(({ name, Icon }) => (
+      {SKILLS.map(({ name, Icon , color}) => (
         <motion.div
           key={name}
           whileHover={{ scale: 1.1 }}
@@ -59,7 +59,7 @@ export default function Skills() {
           transition={{ duration: 0.3 }}
           className="flex flex-col items-center gap-2 text-center"
         >
-          <Icon className="text-5xl text-gray-900" />
+          <Icon className="text-7xl text-gray-900"  color={color}/>
           <span className="text-sm font-medium text-gray-800 ">
             {name}
           </span>
