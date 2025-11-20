@@ -42,13 +42,16 @@ export default function Hero() {
 
         
         <p className="text-base sm:text-lg leading-relaxed tracking-wide max-w-3xl mx-auto">
-          <span className=" capitalize">A test-driven front-end and mobile developer who builds well-tested, high-performance applications using React, React Native, TypeScript, Cypress for E2E testing, and React Testing Library for component testing. I focus on clean architecture, clarity, and reliability, delivering solid experiences for both web and mobile.</span>
+          <span className=" capitalize">Results-driven Frontend Developer specializing in scalable, AI-integrated applications with
+React, TypeScript, and Next.js. Highly skilled in designing maintainable component
+architectures and implementing robust testing strategies using Cypress, Jest, and React
+Testing Library to achieve long-term reliability and predictable performance.</span>
         </p>
 
         
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-center gap-6">
           <a
-            href="https://drive.google.com/file/d/1AAMbGX7X_jWI5QIoOQnn27H0Z4Sl413n/view?usp=sharing"
+            href="https://drive.google.com/file/d/1OeJ92nOQgqVTX03H09eINPIkDIWHcWu7/view?usp=sharing"
             target="_blank"
             className="rounded-xl px-6 py-3 text-sm capitalize bg-black hover:bg-gray-500 text-white font-medium tracking-wide hover:underline transition-colors"
           >

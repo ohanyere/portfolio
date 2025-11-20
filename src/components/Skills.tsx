@@ -46,7 +46,7 @@ export default function Skills() {
         </div>
         
       </div>
-      <div className="flex flex-wrap justify-center gap-8 py-8  dark:bg-gray-800 rounded-xl">
+      <div className="flex flex-wrap justify-center gap-8 py-8  rounded-xl">
       
       
       {SKILLS.map(({ name, Icon , color}) => (
