@@ -51,7 +51,7 @@ Testing Library to achieve long-term reliability and predictable performance.</s
         
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-center gap-6">
           <a
-            href="https://drive.google.com/file/d/1bMIoQDGxYK9bIdJjNx-S4lBnosQfDVVw/view?usp=sharing"
+            href=""
             target="_blank"
             className="rounded-xl px-6 py-3 text-sm capitalize bg-black hover:bg-gray-500 text-white font-medium tracking-wide hover:underline transition-colors"
           >
